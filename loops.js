@@ -77,3 +77,30 @@ for(let i = 0; i<rapperArray.length; i++){
     console.log(rapperArray[i])
 }
 console.log("And if you don't know, now you know.") // lyrics to be matched with artist.
+
+
+console.log("___________________________________\n")
+
+// below is practice for for..of loop
+
+const fruits = ["Apple", "Orange", "Pear","Banana"]
+for(const fruit of fruits){ // best practice is use singular term of array name
+    console.log(fruit)
+}
+
+console.log("___________________________________\n")
+
+const username = "Diego"
+for(const char of username){ // looping through a string 
+    console.log(char)
+}
+
+console.log("___________________________________\n")
+
+const tvBrands = ["Sony","LG","Samsung","Tosiba","Vizo","Hikou"]
+for(const tvBrand of tvBrands){
+    if(tvBrand === "Tosiba"){
+        continue; // continue will skip over the condition want it to. 
+    }
+    console.log(tvBrand)
+}
